@@ -1,4 +1,19 @@
+:root{
+  --bg-color: #ffff;
+  --start-page-text: #ffff;
+  --start-page-button: #ffff;
+  --start-page-button-hover: #ffff;
+  
+  --container-bg: #ffff;
+  
+  --navbar-bg: #ffff;
+  --navbar-text-color: #ffff;
+  --navbar-links: #ffff;
+
+}
+
 body{
     background-color: #907AD6;
     /* background-color: #A9DBB8; */
+    /* background-color: var(--bg-color); */
 }
