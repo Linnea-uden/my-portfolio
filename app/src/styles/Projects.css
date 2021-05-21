@@ -1,0 +1,58 @@
+body{
+    box-sizing: border-box;
+}
+.project {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    top: 50px;
+    color: white;
+  }
+  
+  .flex-item-left {
+    background-color: #553ea079;
+    padding: 10px;
+    flex: 50%;
+    margin: 10px;
+    border-radius: 5px;
+  }
+
+  .flex-item-middle{
+      background-color: #553ea079;
+      padding: 10px;
+      flex: 50%;
+      margin: 10px;
+      border-radius: 5px;
+
+  }
+  .flex-item-right {
+    background-color: #553ea079;
+    padding: 10px;
+    flex: 50%;
+    margin: 10px;
+    border-radius: 5px;
+
+  }
+  img{
+      width: 100%;
+      height: 50%;
+  }
+  .project h3{
+      font-size: 20px;
+      text-decoration: underline;
+      position: relative;
+      top: -10px;
+  }
+  .project p{
+      font-size: 20px;
+  }
+  
+  /* Responsive layout - makes a one column-layout instead of two-column layout */
+  @media screen and (max-width: 960px) {
+    .project {
+      flex-direction: column;
+    }
+}
