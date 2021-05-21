@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { fas } from '@fortawesome/free-solid-svg-icons'
 import "./NavBar.css";
 
 function NavBar() {
@@ -12,7 +11,7 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            CodeBucks
+            Linnea Uden
             <i className="fas fa-code"></i>
           </NavLink>
 
@@ -42,12 +41,12 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/blog"
+                to="/Projects"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Blog
+                Projects
               </NavLink>
             </li>
             <li className="nav-item">
@@ -58,7 +57,7 @@ function NavBar() {
                 className="nav-links"
                 onClick={handleClick}
               >
-                Contact Us
+                Contact Me
               </NavLink>
             </li>
           </ul>
