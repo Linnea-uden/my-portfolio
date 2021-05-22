@@ -18,7 +18,8 @@
     top: 2rem;
     width: 80%;
     height: 100%;
-    background-color: #553ea079;
+    /* background-color: #553ea079; */
+    background-color: var(--container-bg);
     border-radius: 25px;
 }
 .about-text{

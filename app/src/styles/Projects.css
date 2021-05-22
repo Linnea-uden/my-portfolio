@@ -13,7 +13,8 @@ body{
   }
   
   .flex-item-left {
-    background-color: #553ea079;
+    /* background-color: #553ea079; */
+    background-color: var(--container-bg);
     padding: 10px;
     flex: 50%;
     margin: 10px;
@@ -21,7 +22,8 @@ body{
   }
 
   .flex-item-middle{
-      background-color: #553ea079;
+      /* background-color: #553ea079; */
+    background-color: var(--container-bg);
       padding: 10px;
       flex: 50%;
       margin: 10px;
@@ -29,7 +31,8 @@ body{
 
   }
   .flex-item-right {
-    background-color: #553ea079;
+    /* background-color: #553ea079; */
+    background-color: var(--container-bg);
     padding: 10px;
     flex: 50%;
     margin: 10px;

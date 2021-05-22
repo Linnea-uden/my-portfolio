@@ -1,19 +1,36 @@
-:root{
+/* :root{
   --bg-color: #ffff;
-  --start-page-text: #ffff;
-  --start-page-button: #ffff;
-  --start-page-button-hover: #ffff;
+  --start-page-text: #2b294b;
+  --start-page-button: #907AD6;
+  --start-page-button-hover: #8f7ad6d3;
   
   --container-bg: #ffff;
   
   --navbar-bg: #ffff;
-  --navbar-text-color: #ffff;
-  --navbar-links: #ffff;
+  --navbar-text-color: #2C2A4A;
+  --navbar-links: #2C2A4A;
+  --navbar-links-hover: #2C2A4A;
+
+
+} */
+:root{
+  --bg-color: #12232E;
+  --start-page-text: #FFFFFF;
+  --start-page-button: #F1B24A;
+  --start-page-button-hover: #f3b44fbb;
+  
+  --container-bg: #9dc88da6;
+  --btn-bg:#F1B24A ;
+ 
+  
+  --navbar-bg: ;
+  --navbar-text-color: #FFFFFF;
+  --navbar-links: #FFFFFF;
+  --navbar-links-hover: #F1B24A;
+
 
 }
-
 body{
-    background-color: #907AD6;
-    /* background-color: #A9DBB8; */
     /* background-color: var(--bg-color); */
+    background-image: linear-gradient(to right,#164A41,#4D774E, #9DC88D );
 }
