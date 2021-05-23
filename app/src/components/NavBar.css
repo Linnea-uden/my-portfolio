@@ -122,8 +122,23 @@
       color: #ffdd40;
     }
   }
-  @media screen and (min-width: 1900px) {
-    body{
-      background-color: pink;
+  @media screen and (min-width: 1600px) {
+    .nav-logo{
+      margin-left: -40px;
     }
+    .nav-menu{
+      position: relative;
+      left: 100px;  
+  }
+  }
+  @media screen and (min-width: 1900px) {
+    .nav-logo{
+     position: relative;
+     right: 120px;
+    }
+    .nav-menu{
+      position: relative;
+      left: 200px;  
+  }
+
   }

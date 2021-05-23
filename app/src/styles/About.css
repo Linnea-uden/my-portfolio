@@ -43,3 +43,15 @@
 .social-links{
     text-align: center;
 }
+
+@media screen and (min-width: 1600px){
+    .about{
+        height: 650px;
+    }
+    .text{
+        position: relative;
+        top: 10px;
+        font-size: 25px;
+    }
+
+}

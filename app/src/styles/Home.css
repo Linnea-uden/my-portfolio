@@ -40,3 +40,10 @@
         font-size: 25px;
     }
 }
+
+@media screen and (min-width: 1600px) {
+.home{
+    top: 300px;
+}
+
+}

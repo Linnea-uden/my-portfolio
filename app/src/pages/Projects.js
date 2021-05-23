@@ -22,7 +22,6 @@ export const Projects = () => {
       <h3>Shop</h3>
       <p>This is an product shop made in HTML, CSS and Javascript</p>
     </div>
-
 </div>
   );
 };
