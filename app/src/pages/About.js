@@ -1,5 +1,7 @@
 import React from "react";
-import "../styles/About.css"
+import "../styles/About.css";
+import { Link } from "react-router-dom";
+
 
 export const About = () => {
   return (
@@ -11,6 +13,8 @@ export const About = () => {
         <br/>
         I have been developing websites for about 2 years now 
         <br/>
+        Feel free to take a look at my <Link to="/projects">Work</Link>
+        <br />
         I have worked with HTML, CSS, Javascript and React js</p>
       </div>
 

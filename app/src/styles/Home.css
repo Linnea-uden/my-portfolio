@@ -11,7 +11,7 @@
 }
 
 .home h1{
-    /* color: white; */
+
     font-size: 60px;
     margin-left: 110px;
     font-family: 'Marck Script', cursive;
@@ -38,6 +38,10 @@
 @media screen and (max-width: 960px){
     .home h3{
         font-size: 25px;
+    }
+    .home h1{
+        position: relative;
+        right: 25px;
     }
 }
 
