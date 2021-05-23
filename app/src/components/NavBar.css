@@ -122,3 +122,8 @@
       color: #ffdd40;
     }
   }
+  @media screen and (min-width: 1900px) {
+    body{
+      background-color: pink;
+    }
+  }
