@@ -1,7 +1,5 @@
 
 .navbar {
-    /* background-color: #1f5156; */
-    /* background-color: #2C2A4A; */
     background-color: var(--navbar-bg);
     height: 80px;
     display: flex;
@@ -66,13 +64,10 @@
   
   .nav-item:hover:after {
     width: 100%;
-    /* background: #ffdd40; */
     background: var(--navbar-links-hover);
   }
   
   .nav-item .active {
-    /* color: #ffdd40;
-    border: 1px solid #ffdd40; */
     color: var(--navbar-links-hover);
     border: 1px solid var(--navbar-links-hover);
   }

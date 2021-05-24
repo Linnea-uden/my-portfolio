@@ -11,10 +11,10 @@ export const Home = () => {
       <h1>Hello!</h1>
         <h3>
             <Typical 
-            loop={1}
+            loop={Infinity}
             wrapper="p"
             steps={[
-                ' My name is Linnea',
+                ' My name is Linnea🖐',
                 3000,
                 ' I am a web developer💻',
                 3000

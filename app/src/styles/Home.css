@@ -1,10 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
 .home{
-    /* color: #1c1288; */
     color: var(--start-page-text);
     position: relative;
     top: 150px;
@@ -24,9 +20,8 @@
     margin-top: -40px;
 } 
 .read-btn{
-    background-color:#0783b4;
     background-color: var(--start-page-button);
-    color: black;
+    color: rgba(0, 0, 0, 0.767);
     text-decoration: none;
     padding: 10px;
     border-radius: 15px;
